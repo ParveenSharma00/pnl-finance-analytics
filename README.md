@@ -1,8 +1,9 @@
-📊 Finance P&L Analytics Platform
-End-to-End Financial Data Modeling, FX Normalization & CFO-Level Dashboards
+**📊 Finance P&L Analytics Platform
+End-to-End Financial Data Modeling, FX Normalization & CFO-Level Dashboards**
 
 Overview
 This project delivers an end-to-end Finance Analytics solution that converts raw P&L and balance sheet data into standardized CFO-level KPIs and executive dashboards. The platform supports multi-company analysis, yearly/quarterly views, dynamic currency conversion (Naira ↔ USD), and automatic value scaling (Millions/Billions), with outputs available in both Excel dashboards and a Python (Plotly/Dash) web application.
+![WhatsApp Image 2026-02-17 at 00 05 36](https://github.com/user-attachments/assets/1836d5ec-04f1-4e58-9be0-62a084e46e5e)
 
 Business Objective
 Enable Finance leadership to:
@@ -36,7 +37,8 @@ Comparative Analysis
 * QoQ and YoY variance (absolute & %)
 All KPIs are explicitly defined, standardized, and reproducible, ensuring a single source of truth for Finance.
 
-![Uploading image.png…]()
+![WhatsApp Image 2026-02-16 at 22 59 21](https://github.com/user-attachments/assets/b14e12d0-9ae9-4e17-bad3-0b849929ac48)
+
 
 Excel Dashboard (CFO View)
 * Fully automated Excel dashboard with:
@@ -44,12 +46,19 @@ Excel Dashboard (CFO View)
     * Yearly / Quarterly toggle
     * Currency toggle (Naira / USD)
     * Automatic Million / Billion scaling
+![WhatsApp Image 2026-02-17 at 00 04 54](https://github.com/user-attachments/assets/f49a55de-dfbe-4a38-9ce1-b9ccfd674d2d)
+
 * Executive-friendly KPI layout with clear variance indicators
 * Eliminates manual recalculations during finance reviews
- 
+
+
 Python Dashboard (Plotly / Dash)
 In parallel, the same analytics logic is implemented as a Python-based interactive dashboard.
 Design Principles
+![WhatsApp Image 2026-02-17 at 00 08 48](https://github.com/user-attachments/assets/accd5ecb-d12f-47ae-b061-a279b2693264)
+
+![WhatsApp Image 2026-02-17 at 00 09 04](https://github.com/user-attachments/assets/e7fc5209-cba4-4a85-bb59-7eb254ff9f24)
+
 * Modular, production-style codebase
 * Clear separation of:
     * Data loading
